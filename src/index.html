@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>贪吃蛇</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="stage">
+        <!-- 蛇 -->
+        <div class="snake">
+          <div class="snake_item"></div>
+        </div>
+        <div class="food" id="food">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <!-- 记分 -->
+      <div class="score-panel">
+        <p>SCORE:<span class="score">0</span></p>
+        <p>level:<span class="level">1</span></p>
+      </div>
+    </div>
+    <!-- 操作按键 -->
+    <div class="operation">
+      <div class="item top">></div>
+      <div class="center">
+        <div class="item left">></div>
+        <div class="item right">></div>
+      </div>
+      <div class="item bottom">></div>
+    </div>
+  </body>
+</html>
